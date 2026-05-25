@@ -1,0 +1,12 @@
+# bmad workspace + local skill install copy — dev scratch, not part of the published skill
+.claude/
+.agents/
+_bmad/
+_bmad-output/
+design-artifacts/
+
+# state files the skill generates when run in a project
+PROJECT_MAP.md
+
+# OS / editor
+.DS_Store
