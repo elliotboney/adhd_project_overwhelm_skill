@@ -1,10 +1,10 @@
 # overwhelmed
 
-A Claude Code skill for when a project becomes a hairball and you can't see which strand to grab.
+A Claude Code skill for when a project turns into a hairball and you can't see which strand to grab.
 
-You say *"I'm lost in this project"* — it externalizes the whole thing as a **mermaid map**, then hands you **one concrete next action**. State persists in a per-project `PROJECT_MAP.md`, so you can park ideas without losing them and resume a later session without re-explaining.
+I built this because "where do I even start" is where my projects go to die. You say *"I'm lost in this project"* and it does two things: draws the whole thing as a **mermaid map**, then hands you **one** concrete next action. That's it. The map lives in a per-project `PROJECT_MAP.md`, so you can park ideas without losing them and pick up a later session without re-explaining anything.
 
-Built for ADHD brains: small working memory, starting is the hardest step, buried wins don't register. Self-contained — no dependency on other skills.
+Built around three facts about an ADHD brain: working memory is small, starting is the hardest step, and buried wins don't register. Self-contained — no other skills required.
 
 ## What it does
 
@@ -54,9 +54,9 @@ Then in Claude Code, type `/overwhelmed` — or just say you're overwhelmed.
             └── PROJECT_MAP.example.md
 ```
 
-## Inspiration / worth checking out
+## Inspiration
 
-This skill stands on the shoulders of other ADHD + Claude experiments. Each solves a different slice of the problem — go look if `overwhelmed` doesn't fit yours:
+These shaped the design. Each solves a different slice of the problem — worth a look if `overwhelmed` isn't your slice:
 
 - [JackReis/neurodivergent-visual-org](https://github.com/JackReis/neurodivergent-visual-org) — mermaid diagrams with cognitive caps; the complaint→diagram mapping and node limits here come from it.
 - [Leonw98/adhd-claude-skill](https://github.com/Leonw98/adhd-claude-skill) — outcome-locked focus sessions and smart-routed parking lot.
@@ -68,7 +68,7 @@ This skill stands on the shoulders of other ADHD + Claude experiments. Each solv
 
 ## More ADHD + AI resources
 
-Not what inspired this skill, but worth a look if you're building an AI workflow around an ADHD brain:
+Didn't inform this skill, but worth your time if you're wiring up an AI workflow around an ADHD brain:
 
 - [XargsUK/awesome-adhd](https://github.com/XargsUK/awesome-adhd) — big curated list of ADHD apps, tools, and books. Start here to mine more.
 - [dicktracey909/awesome-adhd-tools](https://github.com/dicktracey909/awesome-adhd-tools) — tighter list of tools built *for* ADHD brains, not adapted from neurotypical ones.
